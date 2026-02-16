@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+# My github Site
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shane K. Panter</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+![thats me kinda}(Screenshot 2026-02-15 225151.png)
 
-<body>
-  <h1>My example student website</h1>
-  <img src="shane_panter.jpeg" alt="ME!" width=200>
-  <p><a href="https://www.boisestate.edu/coen-cs/people/faculty/shane-panter/">Falculty website</a></p>
-  <h2>Interests</h2>
-  <ul>
-    <li><a href="https://www.uspa.org/">Skydiving</a></li>
-    <li>Mountain Biking</li>
-  </ul>
-  <h2>Cool sites</h2>
-  <ol>
-    <li><a href="https://github.com">github</a></li>
-    <li><a href="https://chatgpt.com/">Homework completor</a></li>
-  </ol>
-  <h2>AI plagiarism Detection</h2>
-  <p>
-    There is no way for anyone to prove that you used AI. 
-    <a href="https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/">details</a>
-    can be found from the company that makes chatgpt!</p>
-</body>
-</html>
+## Interests
+
+- [Metroid](https://metroid.fandom.com/wiki/Metroid_Wiki)
