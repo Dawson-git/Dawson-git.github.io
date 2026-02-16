@@ -1,7 +1,9 @@
-title: "[Dawson Gardels]" #
+# Site Settings
+title: "Dawson Gardels" #
 description: "My website" #
 url: "https://dawson-git.github.io" #
 
+# Author Information (Sidebar/Profile)
 author:
   name: "Dawson Gardels" #
   avatar: "https://static.wikia.nocookie.net/metroid/images/8/8c/SSB_Ultimate_Samus_render.png/revision/latest/scale-to-width-down/290?cb=20180612174025"
