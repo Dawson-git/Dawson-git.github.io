@@ -1,29 +1,38 @@
-# Site Settings
-title: "Dawson Gardels" #
-description: "My website" #
-url: "https://dawson-git.github.io" #
+# Site Configuration
+site_metadata:
+  [cite_start]title: "Dawson Gardels"
+  [cite_start]header: "My example website"
 
-# Author Information (Sidebar/Profile)
-author:
-  name: "Dawson Gardels" #
-  avatar: "https://static.wikia.nocookie.net/metroid/images/8/8c/SSB_Ultimate_Samus_render.png/revision/latest/scale-to-width-down/290?cb=20180612174025"
-  bio: "From Idaho Falls" #
-  location: "Boise, ID"
+profile:
+  image:
+    src: "shane_panter.jpeg"
+    alt: "ME!"
+    width: 200
+  faculty_link:
+    text: "Falculty website"
+    [cite_start]url: "https://www.boisestate.edu/coen-cs/people/faculty/shane-panter/" [cite: 310]
+
+interests_section:
+  title: "Interests"
+  items:
+    - text: "Metroid"
+      [cite_start]url: "https://metroid.fandom.com/wiki/Metroid_Wiki"
+    - [cite_start]text: "Mountain Biking"
+
+cool_sites_section:
+  title: "Cool sites"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com" #
+    1: 
+      name: "github"
+      [cite_start]url: "https://github.com"
+    2:
+      name: ""
+      [cite_start]url: ""
 
-# Interests Section
-interests: #
-  - item: "Games" #
-  - item: "Fixing things" #
 
-# External Links / Cool Sites
-cool_sites: #
-  - title: "GitHub"
-    url: "https://github.com" #
-  - title: "Metroid Wiki"
-    url: "https://metroid.fandom.com/wiki/Metroid_Wiki" #
-
-theme: jekyll-theme-minimal
+ai_detection_section:
+  title: "AI plagiarism Detection"
+  content: >
+    There is no way for anyone to prove that you used AI. 
+    [details](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/) 
+    [cite_start]can be found from the company that makes chatgpt! [cite: 310, 311]
