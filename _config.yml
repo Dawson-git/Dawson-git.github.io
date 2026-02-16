@@ -1,22 +1,27 @@
-# Dawson Gardels
+title: "[Dawson Gardels]" #
+description: "My website" #
+url: "https://dawson-git.github.io" #
 
-## My pic
+author:
+  name: "Dawson Gardels" #
+  avatar: "https://static.wikia.nocookie.net/metroid/images/8/8c/SSB_Ultimate_Samus_render.png/revision/latest/scale-to-width-down/290?cb=20180612174025"
+  bio: "From Idaho Falls" #
+  location: "Boise, ID"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com" #
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+# Interests Section
+interests: #
+  - item: "Games" #
+  - item: "Fixing things" #
 
-Interests
-Metroid [https://metroid.fandom.com/wiki/Metroid_Wiki](#sample-section).
-## This heading is not unique in the file
+# External Links / Cool Sites
+cool_sites: #
+  - title: "GitHub"
+    url: "https://github.com" #
+  - title: "Metroid Wiki"
+    url: "https://metroid.fandom.com/wiki/Metroid_Wiki" #
 
-TEXT 2
-
-# Links to the example headings above
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+theme: jekyll-theme-minimal
