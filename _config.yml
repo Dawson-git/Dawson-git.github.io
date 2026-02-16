@@ -5,7 +5,7 @@ site_metadata:
 
 profile:
   image:
-    src: "shane_panter.jpeg"
+    src: "Screenshot 2026-02-15 225151.png"
     alt: "ME!"
     width: 200
   faculty_link:
@@ -17,7 +17,7 @@ interests_section:
   items:
     - text: "Metroid"
       [cite_start]url: "https://metroid.fandom.com/wiki/Metroid_Wiki"
-    - [cite_start]text: "Mountain Biking"
+    - [cite_start]text: "Olympics watching"
 
 cool_sites_section:
   title: "Cool sites"
