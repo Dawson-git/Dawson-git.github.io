@@ -1,13 +1,13 @@
 # Dawson-git.github.io
-## Is this how you change it?
+## Dawson-git
 
 ![Me!](Screenshot 2026-02-15 225151.png)
 
-My Github!! [Github Page](https://github.com/Dawson-git)
+[My Github Page](https://github.com/Dawson-git)
 
 #Interests/
 
--(Metroid)[https://metroid.fandom.com/wiki/Metroid_Wiki]
+- (Metroid)[https://metroid.fandom.com/wiki/Metroid_Wiki]
 
 -Computer Engineering
 
