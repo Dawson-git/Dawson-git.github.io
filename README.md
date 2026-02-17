@@ -8,7 +8,6 @@
 ## Interests
 
 - [Metroid](https://metroid.fandom.com/wiki/Metroid_Wiki)
-
 - Computer Engineering
 
 ## Cool Sites
