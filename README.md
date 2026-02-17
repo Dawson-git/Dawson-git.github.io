@@ -9,7 +9,7 @@
 
 - (Metroid)[https://metroid.fandom.com/wiki/Metroid_Wiki]
 
--Computer Engineering
+- Computer Engineering
 
 #Cool Sites
 1. (Cool Math Games)[https://www.coolmathgames.com/]
