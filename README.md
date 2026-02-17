@@ -5,12 +5,12 @@
 
 [My Github Page](https://github.com/Dawson-git)
 
-#Interests
+## Interests
 
-- (Metroid)[https://metroid.fandom.com/wiki/Metroid_Wiki]
+- [Metroid](https://metroid.fandom.com/wiki/Metroid_Wiki)
 
 - Computer Engineering
 
-#Cool Sites
-1. (Cool Math Games)[https://www.coolmathgames.com/]
-2. (Google Snake)[https://sites.google.com/site/populardoodlegames/google-snake]
+## Cool Sites
+1. [Cool Math Games](https://www.coolmathgames.com/)
+2. [Google Snake](https://sites.google.com/site/populardoodlegames/google-snake)
