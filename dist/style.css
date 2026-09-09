@@ -1,21 +1,23 @@
-body {
-  background-color: #000;
-  font-family: "Trebuchet MS", sans-serif;  
+html, body {
+  background-color: rgba(99,42,0,1);
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 p {
   font-family: "Trebuchet MS", sans-serif;
-  color: #4AF262;
-  text-shadow: 0 10px 10px #4AF262;
+  color: rgba(249,130,74,1);
+  text-shadow: 0px 0px 5px rgba(249,130,74,1);
 }
 
 ul {
   display: flex;
-  gap: 20px;
+  gap: 0px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background-color: BLUE;
+  background-color: Grey;
 }
 
 li {
@@ -30,13 +32,12 @@ li {
 }
 
 .dropbtn {
-  background-color: #3498db;
+  background-color: Grey;
   color: white;
   padding: 12px 20px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 .dropdown-content {
@@ -65,5 +66,5 @@ li {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #2980b9;
+  background-color: darkgrey;
 }
