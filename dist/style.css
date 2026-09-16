@@ -9,6 +9,16 @@ p {
   font-family: "Trebuchet MS", sans-serif;
   color: rgba(249,130,74,1);
   text-shadow: 0px 0px 5px rgba(249,130,74,1);
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#demo {
+  background: black;
+}
+
+#header {
+  position: fixed;
 }
 
 ul {

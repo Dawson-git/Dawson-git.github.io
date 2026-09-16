@@ -1,7 +1,9 @@
-import * as commands from './commands.js';
+// import * as commands from './commands.js';
 
 console.log("Js is here!");
+var historyString = new String();
 var userString = new String();
+var currentString = new String();
 
 function help(){
     this.description = "Shows all avalible functions, their arguments and descriptions.";
@@ -10,9 +12,9 @@ function help(){
 
 document.addEventListener('keydown', function(event) {
     var outputElem = document.getElementById("demo");
+    var historyOutputElem = document.getElementById("history");
     event.preventDefault();
-    outputElem.innerHTML = "event = " + event + "<br>event.key = " + event.key + "<br> event.shift = " + event.shiftKey + "<br> event.alt = " + event.altKey + "<br> event.code = " + event.code;
-
+    historyOutputElem.innerHTML = "event = " + event + "<br>event.key = " + event.key + "<br> event.shift = " + event.shiftKey + "<br> event.alt = " + event.altKey + "<br> event.code = " + event.code;
     switch(event.key) {
         case "Backspace":
             userString = userString.slice(0,-1);
@@ -30,10 +32,18 @@ document.addEventListener('keydown', function(event) {
         case "Tab":
             userString += "   ";
             break;
+        case "Enter":
+            userString += "<br>";
+            historyString += userString;
+            userString = "";
+            outputElem.scrollTo();
+            break;
         default:
             userString += event.key;
     }
-    outputElem.innerHTML += "<br>" + userString;
+    historyOutputElem.innerHTML += "<br>" + historyString;    
+    outputElem.innerHTML = userString;
+
 });
 
 // (function() {
