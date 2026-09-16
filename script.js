@@ -1,6 +1,11 @@
+import * as commands from './commands.js';
+
 console.log("Js is here!");
 var userString = new String();
 
+function help(){
+    this.description = "Shows all avalible functions, their arguments and descriptions.";
+};
 
 
 document.addEventListener('keydown', function(event) {
@@ -30,6 +35,7 @@ document.addEventListener('keydown', function(event) {
     }
     outputElem.innerHTML += "<br>" + userString;
 });
+
 // (function() {
 
 
