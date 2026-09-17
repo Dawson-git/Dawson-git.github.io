@@ -1,6 +1,7 @@
 // import * as commands from './commands.js';
 
 console.log("Js is here!");
+var renameString = "User-User@PC>>"
 var historyString = new String();
 var userString = new String();
 var currentString = new String();
@@ -34,7 +35,7 @@ document.addEventListener('keydown', function(event) {
             break;
         case "Enter":
             userString += "<br>";
-            historyString += userString;
+            historyString += renameString + userString;
             userString = "";
             outputElem.scrollTo();
             break;
@@ -42,7 +43,7 @@ document.addEventListener('keydown', function(event) {
             userString += event.key;
     }
     historyOutputElem.innerHTML += "<br>" + historyString;    
-    outputElem.innerHTML = userString;
+    outputElem.innerHTML = renameString + userString;
 
 });
 
