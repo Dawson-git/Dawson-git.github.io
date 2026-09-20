@@ -19,6 +19,7 @@ p {
 #demo {
   animation: lineBlink 4s linear 1s  infinite alternate;
   animation: name duration timing-function delay iteration-count direction fill-mode;
+  overflow-wrap: anywhere;
 }
 
 header {

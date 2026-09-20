@@ -10,7 +10,6 @@ function help(){
     this.description = "Shows all avalible functions, their arguments and descriptions.";
 };
 
-
 document.addEventListener('keydown', function(event) {
     var outputElem = document.getElementById("demo");
     var historyOutputElem = document.getElementById("history");
