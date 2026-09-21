@@ -7,22 +7,39 @@ var userString = new String();
 var currentString = new String();
 var outputElem = document.getElementById("demo");
 var historyOutputElem = document.getElementById("history");
-var viewportWidth = window.innerWidth;
-var viewportHeight = window.innerHeight;
+var Width = window.innerWidth;
+var Height = window.innerHeight;
+var charViewportWidth = 0;
+var charViewportHeight = 0;
 
 function help() {
     this.description = "Shows all avalible functions, their arguments and descriptions.";
 };
 
 function drawBorder() {
-
+    // start line
+    for (let i = 0; i < viewportWidth; i++) {
+        
+    }
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
 };
 
-document.addEventListener('resize', function () {
+window.addEventListener('resize', function () {
     viewportWidth = window.innerWidth;
     viewportHeight = window.innerHeight;
     console.log(viewportHeight + ", " + viewportWidth)
 });
+
+function viewportWidth(){
+    return Height = window.innerHeight;
+};
+
+function viewportHeight(){
+    return tWidth = window.innerWidth;
+};
 
 document.addEventListener('keydown', function (event) {
 
