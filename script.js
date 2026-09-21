@@ -5,19 +5,32 @@ var renameString = "User-User@PC>>"
 var historyString = new String();
 var userString = new String();
 var currentString = new String();
+var outputElem = document.getElementById("demo");
+var historyOutputElem = document.getElementById("history");
+var viewportWidth = window.innerWidth;
+var viewportHeight = window.innerHeight;
 
-function help(){
+function help() {
     this.description = "Shows all avalible functions, their arguments and descriptions.";
 };
 
-document.addEventListener('keydown', function(event) {
-    var outputElem = document.getElementById("demo");
-    var historyOutputElem = document.getElementById("history");
+function drawBorder() {
+
+};
+
+document.addEventListener('resize', function () {
+    viewportWidth = window.innerWidth;
+    viewportHeight = window.innerHeight;
+    console.log(viewportHeight + ", " + viewportWidth)
+});
+
+document.addEventListener('keydown', function (event) {
+
     event.preventDefault();
-    historyOutputElem.innerHTML = "event = " + event + "<br>event.key = " + event.key + "<br> event.shift = " + event.shiftKey + "<br> event.alt = " + event.altKey + "<br> event.code = " + event.code;
-    switch(event.key) {
+    historyOutputElem.innerHTML = "event = " + event + "<br>event.key = " + event.key + "<br> event.shift = " + event.shiftKey + "<br> event.alt = " + event.altKey + "<br> event.code = " + event.code + "<br> window.innerWidth = " + viewportWidth + "<br> window.innerHeight = " + viewportHeight;
+    switch (event.key) {
         case "Backspace":
-            userString = userString.slice(0,-1);
+            userString = userString.slice(0, -1);
             break;
 
         case "Shift":
@@ -25,10 +38,10 @@ document.addEventListener('keydown', function(event) {
 
         case "Alt":
             break;
-        
+
         case "Control":
             break;
-        
+
         case "Tab":
             userString += "   ";
             break;
@@ -41,7 +54,7 @@ document.addEventListener('keydown', function(event) {
         default:
             userString += event.key;
     }
-    historyOutputElem.innerHTML += "<br>" + historyString;    
+    historyOutputElem.innerHTML += "<br>" + historyString;
     outputElem.innerHTML = renameString + userString;
 
 });
