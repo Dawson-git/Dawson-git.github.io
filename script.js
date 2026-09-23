@@ -40,13 +40,69 @@ function resizeHandler(){
 // setInterval(resizeHandler, 5000);
 
 function startupSequence(){
-    textWidth = context.measureText(randomText).width;
+    textWidth = context.measureText("0").width;
     charWidth = Math.floor(canvas.width/ textWidth);
     textHeight = (context.font).slice(0,2);
     charHeight = Math.floor(canvas.height / textHeight);
     context.strokeText(charHeight + " " + charWidth, 100,100);
     console.log({textWidth, charWidth, textHeight, charHeight});
-}
+    // setTimeout(function(){
+    //     reset();
+    // }, 1000);
+
+    drawBox();
+};
+
+function drawBox() {
+    outlineChar = '0';
+    spaceChar = 'x'
+    context.strokeStyle = defaultTextColor;
+    context.fillStyle = defaultTextColor;
+    reset();
+    //top
+    for (let i = 0; i < charWidth; i++) {  
+        setTimeout(() => {
+            context.strokeText(outlineChar,i * textWidth, textHeight);
+        }, 10 * i);
+    };
+    //body
+    for (let i = 0; i < charWidth; i++) {
+        for (let j = 0; j < charHeight; j++) {
+            if (i == 0 || i == charWidth) {
+                //do nothing
+            } else {
+                if (j == 0 || j == charWidth) {
+                    setTimeout(() => {
+                    context.strokeText(spaceChar, i * textWidth, j * textHeight);
+                    }, 10 * index); 
+                } else {
+                    setTimeout(() => {
+                    context.strokeText(spaceChar, i * textWidth, j * textHeight);
+                    }, 10 * index); 
+                };
+            };
+        };
+    };    
+
+    //butt
+    for (let i = 0; i < charWidth; i++) {  
+        context.strokeText(outlineChar, i * textWidth, textHeight * charHeight);
+    };    
+};
+
+function reset(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    canvas.textBaseline = 'middle';
+
+    context.fillAlign = 'start';
+
+    context.font = "20px Roboto Mono"
+
+    context.fillStyle = terminalColor;
+    context.fillRect(0, 0, window.innerWidth, window.innerHeight);
+    context.strokeStyle = defaultTextColor;
+    context.fillStyle = defaultTextColor;
+};
 
 console.log(canvas.width + ", " + canvas.height);
-console.log()
